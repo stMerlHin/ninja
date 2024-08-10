@@ -11,6 +11,7 @@ export 'l10n/kunai_localizations.dart';
 export 'src/foundation/back_to.dart';
 export 'src/foundation/disposable.dart';
 export 'src/foundation/grouped_object.dart';
+export 'src/foundation/mappable.dart';
 export 'src/foundation/optional_state.dart';
 
 export 'src/model/country.dart';
