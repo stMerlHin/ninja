@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87284d40-bbec-4d67-a558-99d1defcf79f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/kunai/l10n.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/l10n/app_en.arb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/l10n/app_fr.arb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/l10n/localizations_ext.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/foundation/back_to.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/foundation/disposable.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/foundation/grouped_object.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/foundation/mappable.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/foundation/optional_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/model/country.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/page/launching_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/utils/bitmap_widget_generator.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/utils/constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/utils/custom_theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/utils/extensions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/utils/file_utils.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/utils/methods.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/utils/route_animation.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/card_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/container_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/custom_safe_area.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/date_field.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/draggable_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/error_action_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/notification_box.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/otp/models/otp_animation_type.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/otp/models/otp_dialog_config.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/otp/models/otp_haptic_feedback_type.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/otp/models/otp_pin_code_platform.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/otp/models/otp_pin_theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/otp/otp_field.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/otp/otp_field_cursor_painter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/otp/otp_gradient.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/otp_field.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/phone_field.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/responsive_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/row_info.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/separator.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/settings_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/shadow_text_field.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/text_box.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/text_checkbox.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/warning_container.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/test/foundation/grouped_object_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/test/utils/extensions_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/test/utils/methdos_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/test/widget/container_button_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/test/widget/error_action_widget_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/test/widget/row_info_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/kunai/test/widget/warning_container_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/shuriken/lib/src/model/identified_object.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/shuriken/lib/src/provider/base_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/shuriken/lib/src/utils/extensions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/shuriken/test/model/identified_object_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REAME.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/melos_ninja.iml" beforeDir="false" afterPath="$PROJECT_DIR$/melos_ninja.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/kunai/lib/kunai.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/lib/kunai.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/kunai/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/kunai/test/kunai_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/shuriken/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/shuriken/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2kTh6BeMPsjIKkMUIyJxlFWC3c1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/st/IdeaProjects/ninja/packages/kunai&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;dart.settings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/kunai" />
+      <recent name="$PROJECT_DIR$/packages/shuriken/lib/src/provider" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/shuriken/lib/src/model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Shell Script.Melos -&gt; Bootstrap Workspace" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87284d40-bbec-4d67-a558-99d1defcf79f" name="Changes" comment="" />
+      <created>1723313296453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723313296453</updated>
+    </task>
+    <servers />
+  </component>
+</project>

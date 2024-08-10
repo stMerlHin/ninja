@@ -1,0 +1,7 @@
+arb-dir: lib/l10n
+synthetic-package: false
+template-arb-file: app_en.arb
+output-localization-file: kunai_localizations.dart
+output-class: KunaiLocalizations
+untranslated-messages-file: l10n_untranslated.txt
+nullable-getter: false

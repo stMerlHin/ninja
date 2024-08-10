@@ -1,7 +1,7 @@
 library shuriken;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/model/identified_object.dart';
+
+export 'src/provider/base_provider.dart';
+
+export 'src/utils/extensions.dart';
