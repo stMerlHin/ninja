@@ -2,9 +2,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 import 'package:kunai/kunai.dart';
 
-import 'grouped_object.dart';
-import 'mappable.dart';
-
 class IdentifiedObject with Mappable implements CanBeGrouped {
   final dynamic id;
 

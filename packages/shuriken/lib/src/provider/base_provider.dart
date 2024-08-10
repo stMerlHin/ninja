@@ -5,6 +5,8 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
+import '../../shuriken.dart';
+
 abstract class BaseProvider {
   static late final FirebaseFirestore firestore;
   static late final FirebaseFunctions functions;
