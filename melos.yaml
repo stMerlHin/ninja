@@ -1,0 +1,6 @@
+name: ninja
+
+packages:
+  - apps/**
+  - packages/**
+
