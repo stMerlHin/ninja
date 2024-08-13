@@ -29,6 +29,8 @@ abstract class BaseProvider {
     BaseProvider.auth = auth ?? FirebaseAuth.instance;
     BaseProvider.messaging = messaging ?? FirebaseMessaging.instance;
     BaseProvider.storage = storage ?? FirebaseStorage.instance;
+    // hasLinkedAccount = BaseProvider.auth.currentUser != null
+    //     && BaseProvider.isAnonymous == false;
   }
 
   static Future<void> signInAnonymously({
@@ -139,4 +141,47 @@ abstract class BaseProvider {
       onError(e);
     }
   }
+
+
+  static bool? get isAnonymous {
+    if (hasLinkedAccount) {
+      return false;
+    }
+    return BaseProvider.auth.currentUser?.isAnonymous;
+  }
+
+
+  Future<void> signOut() async {
+    await GoogleSignIn().signOut();
+    await BaseProvider.auth.signOut();
+    BaseProvider.hasLinkedAccount = false;
+  }
+
+
+  static List<UserInfo> get authProvidersData =>
+      BaseProvider.auth.currentUser?.providerData ?? [];
+
+  static UserInfo? get googleInfo {
+    List<UserInfo> googleInfo = BaseProvider.authProvidersData
+        .where(
+          (info) => info.providerId == GoogleAuthProvider.GOOGLE_SIGN_IN_METHOD,
+    )
+        .toList();
+    if (googleInfo.isEmpty) {
+      return null;
+    }
+    return googleInfo.first;
+  }
+
+  static UserInfo? get phoneInfo {
+    List<UserInfo> phoneInfo = BaseProvider.authProvidersData
+        .where(
+            (info) => info.providerId == PhoneAuthProvider.PHONE_SIGN_IN_METHOD)
+        .toList();
+    if (phoneInfo.isEmpty) {
+      return null;
+    }
+    return phoneInfo.first;
+  }
+
 }
