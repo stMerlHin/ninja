@@ -6,6 +6,14 @@ import 'package:flutter/material.dart';
 import 'package:kunai/kunai.dart';
 import 'package:kunai/l10n/localizations_ext.dart';
 
+
+
+typedef ValueCallback<T> = void Function(T value);
+typedef DoubleValueCallback<T, U> = void Function(T value, U val);
+typedef TripleValueCallback<T, U, V> = void Function(T value, U val, V);
+typedef FutureCallback<T> = Future<void> Function(T value);
+typedef VoidFutureCallback = Future<void> Function();
+
 // Launch new page
 Future nextPage(BuildContext context, Widget page,
     {bool replace = false}) async {
