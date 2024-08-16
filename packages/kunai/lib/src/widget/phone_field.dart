@@ -26,6 +26,7 @@ class PhoneField extends StatefulWidget {
     this.allowedCountries,
     this.padding,
     this.defaultCountry,
+    this.autofocus = true,
   });
 
   final double? width;
@@ -47,6 +48,7 @@ class PhoneField extends StatefulWidget {
   final List<Country>? allowedCountries;
   final EdgeInsetsGeometry? padding;
   final InputDecoration? searchFieldDecoration;
+  final bool autofocus;
 
   @override
   State<PhoneField> createState() => _PhoneFieldState();
@@ -75,7 +77,7 @@ class _PhoneFieldState extends State<PhoneField> {
           onTap: widget.onTap,
           controller: widget.controller,
           maxLength: widget.maxLength,
-          autofocus: true,
+          autofocus: widget.autofocus,
           onSubmitted: widget.onSubmitted,
           onChanged: (str) {
             if (str.length <= widget.maxDigit) {
