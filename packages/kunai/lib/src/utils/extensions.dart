@@ -293,6 +293,12 @@ extension StateNavigationExt on State {
     methods.previousPage(context);
   }
 
+  Color get surface => context.surface;
+  Color get onSurface => context.onSurface;
+  Color get error => context.error;
+  Color get onError => context.onError;
+  Color get errorContainer => context.errorContainer;
+  Color get onErrorContainer => context.onErrorContainer;
   Color get primaryColor => context.primaryColor;
   Color get onPrimary => context.onPrimary;
   Color get secondary => context.secondary;
@@ -305,7 +311,13 @@ extension StateNavigationExt on State {
 }
 
 extension ContextColor on BuildContext {
-  Color get primaryColor => methods.themePrimaryColor(this);
+  Color get surface => themeData.colorScheme.surface;
+  Color get onSurface => themeData.colorScheme.onSurface;
+  Color get error => themeData.colorScheme.error;
+  Color get onError => themeData.colorScheme.onError;
+  Color get errorContainer => themeData.colorScheme.errorContainer;
+  Color get onErrorContainer => themeData.colorScheme.onErrorContainer;
+  Color get primaryColor => themeData.colorScheme.primary;
   Color get onPrimary => themeData.colorScheme.onPrimary;
   Color get secondary => themeData.colorScheme.secondary;
   Color get onSecondary => themeData.colorScheme.onSecondary;
