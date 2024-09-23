@@ -6,6 +6,7 @@ void main() {
   DateTime date2 = DateTime(2023, 1, 23);
   DateTime date3 = DateTime(2023, 1, 29);
   DateTime date4 = DateTime(2023, 12, 14);
+  DateTime date5 = DateTime(2024, 8, 6);
   //
   // print(date.plusMonth(0));
 
@@ -15,6 +16,7 @@ void main() {
       expect(date.plusMonth(14), date.copyWith(year: 2024, month: 3));
       // Test for December bug
       expect(date4.plusMonth(1), date4.copyWith(year: 2024, month: 1));
+      expect(date5.plusMonth(1), date5.copyWith(year: 2024, month: 9));
     });
 
     test('lastWeekFirstDayDate', () {
