@@ -89,13 +89,13 @@ class ContainerButton extends StatelessWidget {
                 child: child ?? Text(text!,
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: textColor ?? context.onPrimary,
+                    color: textColor ?? context.onPrimaryColor,
                   ),
                 )
             ) : child ?? Text(text!,
               textAlign: TextAlign.center,
               style: TextStyle(
-                color: textColor ?? context.onPrimary,
+                color: textColor ?? context.onPrimaryColor,
               ),
             ),
           ),

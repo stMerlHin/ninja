@@ -293,37 +293,92 @@ extension StateNavigationExt on State {
     methods.previousPage(context);
   }
 
+  @Deprecated('Use [surfaceColor] instead')
   Color get surface => context.surface;
+  @Deprecated('Use onSurfaceColor instead')
   Color get onSurface => context.onSurface;
+  @Deprecated('Use errorColor instead')
   Color get error => context.error;
+  @Deprecated('Use onErrorColor instead')
   Color get onError => context.onError;
+  @Deprecated('Use errorContainerColor instead')
   Color get errorContainer => context.errorContainer;
+  @Deprecated('Use onErrorContainerColor instead')
   Color get onErrorContainer => context.onErrorContainer;
   Color get primaryColor => context.primaryColor;
+  @Deprecated('Use onPrimaryColor instead')
   Color get onPrimary => context.onPrimary;
+  @Deprecated('Use secondaryColor instead')
   Color get secondary => context.secondary;
+  @Deprecated('Use onSecondaryColor instead')
   Color get onSecondary => context.onSecondary;
+  @Deprecated('Use tertiaryColor instead')
   Color get tertiary => context.tertiary;
+  @Deprecated('Use onTertiaryColor instead')
   Color get onTertiary => context.onTertiary;
+  @Deprecated('Use primaryContainerColor instead')
   Color get primaryContainer => context.primaryContainer;
+  @Deprecated('Use onPrimaryColor instead')
   Color get onPrimaryContainer => context.onPrimaryContainer;
+
+  Color get surfaceColor => context.surfaceColor;
+  Color get onSurfaceColor => context.onSurfaceColor;
+  Color get errorColor => context.errorColor;
+  Color get onErrorColor => context.onErrorColor;
+  Color get errorContainerColor => context.errorContainerColor;
+  Color get onErrorContainerColor => context.onErrorContainerColor;
+  Color get primaryColorColor => context.primaryColor;
+  Color get onPrimaryColor => context.onPrimaryColor;
+  Color get secondaryColor => context.secondaryColor;
+  Color get onSecondaryColor => context.onSecondaryColor;
+  Color get tertiaryColor => context.tertiaryColor;
+  Color get onTertiaryColor => context.onTertiaryColor;
+  Color get primaryContainerColor => context.primaryContainerColor;
+  Color get onPrimaryContainerColor => context.onPrimaryContainerColor;
   ThemeData get themeData => context.themeData;
 }
 
 extension ContextColor on BuildContext {
+  @Deprecated('Use [surfaceColor] instead')
   Color get surface => themeData.colorScheme.surface;
+  @Deprecated('Use onSurfaceColor instead')
   Color get onSurface => themeData.colorScheme.onSurface;
+  @Deprecated('Use errorColor instead')
   Color get error => themeData.colorScheme.error;
+  @Deprecated('Use onErrorColor instead')
   Color get onError => themeData.colorScheme.onError;
+  @Deprecated('Use errorContainerColor instead')
   Color get errorContainer => themeData.colorScheme.errorContainer;
+  @Deprecated('Use onErrorContainerColor instead')
   Color get onErrorContainer => themeData.colorScheme.onErrorContainer;
   Color get primaryColor => themeData.colorScheme.primary;
+  @Deprecated('Use onPrimaryColor instead')
   Color get onPrimary => themeData.colorScheme.onPrimary;
+  @Deprecated('Use secondaryColor instead')
   Color get secondary => themeData.colorScheme.secondary;
+  @Deprecated('Use onSecondaryColor instead')
   Color get onSecondary => themeData.colorScheme.onSecondary;
+  @Deprecated('Use tertiaryColor instead')
   Color get tertiary => themeData.colorScheme.tertiary;
+  @Deprecated('Use onTertiaryColor instead')
   Color get onTertiary => themeData.colorScheme.onTertiary;
+  @Deprecated('Use primaryContainerColor instead')
   Color get primaryContainer => themeData.colorScheme.primaryContainer;
+  @Deprecated('Use onPrimaryContainerColor instead')
   Color get onPrimaryContainer => themeData.colorScheme.onPrimaryContainer;
+
+  Color get surfaceColor => themeData.colorScheme.surface;
+  Color get onSurfaceColor => themeData.colorScheme.onSurface;
+  Color get errorColor => themeData.colorScheme.error;
+  Color get onErrorColor => themeData.colorScheme.onError;
+  Color get errorContainerColor => themeData.colorScheme.errorContainer;
+  Color get onErrorContainerColor => themeData.colorScheme.onErrorContainer;
+  Color get onPrimaryColor => themeData.colorScheme.onPrimary;
+  Color get secondaryColor => themeData.colorScheme.secondary;
+  Color get onSecondaryColor => themeData.colorScheme.onSecondary;
+  Color get tertiaryColor => themeData.colorScheme.tertiary;
+  Color get onTertiaryColor => themeData.colorScheme.onTertiary;
+  Color get primaryContainerColor => themeData.colorScheme.primaryContainer;
+  Color get onPrimaryContainerColor => themeData.colorScheme.onPrimaryContainer;
   ThemeData get themeData => Theme.of(this);
 }
