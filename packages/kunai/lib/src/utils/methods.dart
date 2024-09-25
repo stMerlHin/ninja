@@ -489,7 +489,7 @@ Future<void> showProgressDialog({
   Widget? title,
   bool barrierDismissible = false,
   Widget? description,
-  Color? surfaceTintColor = Colors.white,
+  Color? surfaceTintColor,
   void Function()? onDismiss,
 }) async {
   await showDialog(
@@ -518,7 +518,7 @@ Future<void> showAlertDialog({
   required BuildContext context,
   Widget? title,
   Widget? content,
-  Color? surfaceTintColor = Colors.white,
+  Color? surfaceTintColor,
   List<Widget>? actions,
   bool barrierDismissible = false,
   void Function()? onDismiss,

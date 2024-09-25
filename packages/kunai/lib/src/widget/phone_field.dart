@@ -27,6 +27,7 @@ class PhoneField extends StatefulWidget {
     this.padding,
     this.defaultCountry,
     this.autofocus = true,
+    this.hintStyle,
   });
 
   final double? width;
@@ -49,6 +50,7 @@ class PhoneField extends StatefulWidget {
   final EdgeInsetsGeometry? padding;
   final InputDecoration? searchFieldDecoration;
   final bool autofocus;
+  final TextStyle? hintStyle;
 
   @override
   State<PhoneField> createState() => _PhoneFieldState();
@@ -145,7 +147,7 @@ class _PhoneFieldState extends State<PhoneField> {
                 ),
                 const Separator(
                   direction: Direction.vertical,
-                  margin: EdgeInsets.symmetric(horizontal: 5),
+                  margin: EdgeInsets.symmetric(horizontal: 5.0),
                   size: 25,
                   width: 1,
                 ),
@@ -155,7 +157,7 @@ class _PhoneFieldState extends State<PhoneField> {
               ],
             ),
             hintText: '',
-            hintStyle: const TextStyle(
+            hintStyle: widget.hintStyle ?? const TextStyle(
               color: Colors.grey,
               fontSize: 14.0,
               fontWeight: FontWeight.w500,
@@ -210,10 +212,11 @@ class _CountrySelectionPageState extends State<CountrySelectionPage> {
     }
     return Scaffold(
       appBar: AppBar(
-        surfaceTintColor: Colors.white,
+        surfaceTintColor: surfaceColor,
+        backgroundColor: surfaceColor,
         systemOverlayStyle: SystemUiOverlayStyle(
-          statusBarColor: Colors.black.withOpacity(0.005),
-          systemNavigationBarColor: const Color(0xFF000000),
+          statusBarColor: surfaceColor,
+          systemNavigationBarColor: onSurfaceColor,
           systemNavigationBarIconBrightness: Brightness.light,
           statusBarIconBrightness: Brightness.dark,
           //statusBarBrightness: Brightness.dark,
@@ -228,31 +231,15 @@ class _CountrySelectionPageState extends State<CountrySelectionPage> {
             // width: 110,
             padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
             constraints: const BoxConstraints(maxWidth: 375),
-            decoration: BoxDecoration(
-                color: Colors.grey.withOpacity(0.12),
-                borderRadius: BorderRadius.circular(18)),
             child: TextField(
               onChanged: (str) {
                 setState(() {
                   _searchingValue = str;
                 });
               },
-              decoration: InputDecoration(
+              decoration: widget.searchFieldDecoration ?? InputDecoration(
                 border: InputBorder.none,
                 prefixIcon: const Icon(Icons.search),
-                // suffixIcon: IconButton(
-                //   onPressed: () {
-                //     setState(() {
-                //       _obscurePassword = !_obscurePassword;
-                //     });
-                //   },
-                //   icon: Icon(
-                //     _obscurePassword
-                //         ? CupertinoIcons.eye_fill
-                //         : CupertinoIcons.eye_slash_fill,
-                //     color: primaryColor,
-                //   ),
-                // ),
                 hintText: kunaiL10n.searchCountry,
                 hintStyle: const TextStyle(
                   color: Colors.grey,
@@ -268,7 +255,7 @@ class _CountrySelectionPageState extends State<CountrySelectionPage> {
           ),
           Flexible(
             child: ListView.builder(
-              padding: const EdgeInsets.symmetric(horizontal: 8),
+              padding: const EdgeInsets.symmetric(horizontal: 8.0),
               itemCount: searchList.length,
               itemBuilder: (c, i) {
                 return InkWell(
@@ -277,8 +264,8 @@ class _CountrySelectionPageState extends State<CountrySelectionPage> {
                     this.previousPage();
                   },
                   child: Container(
-                    margin: const EdgeInsets.only(top: 8, bottom: 8),
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    margin: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                    padding: const EdgeInsets.symmetric(horizontal: 16.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -287,7 +274,7 @@ class _CountrySelectionPageState extends State<CountrySelectionPage> {
                           child: Text(
                             '${searchList[i].flag} ${searchList[i].nameTranslations[kunaiL10n.localeName] ?? searchList[i].name}',
                             overflow: TextOverflow.ellipsis,
-                            style: const TextStyle(fontSize: 18),
+                            style: const TextStyle(fontSize: 18.0),
                           ),
                         ),
                         const SizedBox(
