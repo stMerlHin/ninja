@@ -68,13 +68,13 @@ class ContainerButton extends StatelessWidget {
           onPressed: onPressed,
           style: ButtonStyle(
             textStyle: WidgetStateProperty.all(
-              const TextStyle(
-                color: Colors.white,
+              TextStyle(
+                color: context.onPrimaryColor,
                 fontWeight: FontWeight.w600,
               ),
             ),
             backgroundColor: WidgetStateProperty.all(
-              color ?? Theme.of(context).primaryColor,
+              color ?? context.primaryColor,
             ),
             shape: WidgetStatePropertyAll<OutlinedBorder>(
               RoundedRectangleBorder(
