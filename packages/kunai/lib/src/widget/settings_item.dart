@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'constants.dart';
+import 'package:kunai/kunai.dart';
 
 class SettingsItem extends StatelessWidget {
   const SettingsItem({
-    Key? key,
-    this.color = Colors.white,
+    super.key,
+    this.color,
     required this.leftContent,
     this.rightContent,
     //this.padding,
@@ -20,7 +20,7 @@ class SettingsItem extends StatelessWidget {
     this.focusNode,
     this.onLongPress,
     this.style,
-  }) : super(key: key);
+  });
 
   final double? height;
   final double? width;
@@ -41,12 +41,12 @@ class SettingsItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: color,
+      color: color ?? context.primaryContainerColor,
       height: height ?? 60,
       child: onPressed != null
           ? TextButton(
               style: const ButtonStyle(
-                shape: MaterialStatePropertyAll(
+                shape: WidgetStatePropertyAll(
                   kButtonShape,
                 ),
               ),
