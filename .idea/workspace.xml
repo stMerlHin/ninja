@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87284d40-bbec-4d67-a558-99d1defcf79f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/kunai/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/kunai/lib/src/utils/extensions.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/lib/src/utils/extensions.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/kunai/lib/src/utils/methods.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/lib/src/utils/methods.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/kunai/lib/src/widget/container_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/container_button.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/kunai/lib/src/widget/phone_field.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/phone_field.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/kunai/lib/src/widget/settings_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/lib/src/widget/settings_item.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/kunai/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/pubspec.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="87284d40-bbec-4d67-a558-99d1defcf79f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
