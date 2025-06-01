@@ -7,6 +7,8 @@ export 'package:intl/intl.dart';
 export 'l10n/kunai_localizations.dart';
 // export 'package:flutter_gen/gen_l10n/basics_localizations.dart';
 
+export 'src/controller/base_controller.dart';
+
 // Foundation
 export 'src/foundation/back_to.dart';
 export 'src/foundation/disposable.dart';
