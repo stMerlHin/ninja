@@ -24,6 +24,7 @@ export 'src/utils/bitmap_widget_generator.dart';
 export 'src/utils/constants.dart';
 export 'src/utils/extensions.dart';
 export 'src/utils/file_utils.dart';
+export 'src/utils/formatter.dart';
 export 'src/utils/methods.dart';
 export 'src/utils/route_animation.dart';
 //Widgets
