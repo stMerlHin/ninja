@@ -1,4 +1,8 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
 import 'kunai_localizations.dart';
+
+// ignore_for_file: type=lint
 
 /// The translations for French (`fr`).
 class KunaiLocalizationsFr extends KunaiLocalizations {
@@ -47,7 +51,8 @@ class KunaiLocalizationsFr extends KunaiLocalizations {
   String get anErrorHappened => 'Une erreur s\'est produite';
 
   @override
-  String get checkYourConnection => 'Veuillez verifier l\'etat de votre connection';
+  String get checkYourConnection =>
+      'Veuillez verifier l\'etat de votre connection';
 
   @override
   String get retry => 'Rééssayer';
