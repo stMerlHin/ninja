@@ -33,6 +33,7 @@
     &quot;Flutter Test.plusMonth.executor&quot;: &quot;Run&quot;,
     &quot;Flutter Test.tests in extensions_test.dart.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;merlhin-dev&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -47,6 +48,7 @@
       <recent name="$PROJECT_DIR$/packages/shuriken/lib/src/provider" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/kunai/lib/src/controller" />
       <recent name="$PROJECT_DIR$/packages/shuriken/test/model" />
       <recent name="$PROJECT_DIR$/packages/shuriken/test" />
       <recent name="$PROJECT_DIR$/packages/shuriken/lib/src/model" />

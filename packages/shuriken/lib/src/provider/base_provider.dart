@@ -53,9 +53,12 @@ abstract class BaseProvider {
     required void Function(FirebaseAuthException) onAuthError,
     required void Function(dynamic) onError,
     bool link = false,
+    String? clientId,
   }) async {
     try {
-      final googleAccount = await GoogleSignIn().signIn();
+      final googleAccount = await GoogleSignIn(
+        clientId: clientId
+      ).signIn();
       final googleAuth = await googleAccount?.authentication;
       if (googleAuth != null) {
         final credential = GoogleAuthProvider.credential(

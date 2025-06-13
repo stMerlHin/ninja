@@ -7,6 +7,8 @@ export 'package:intl/intl.dart';
 export 'l10n/kunai_localizations.dart';
 // export 'package:flutter_gen/gen_l10n/basics_localizations.dart';
 
+export 'src/controller/base_controller.dart';
+
 // Foundation
 export 'src/foundation/back_to.dart';
 export 'src/foundation/disposable.dart';
@@ -22,6 +24,7 @@ export 'src/utils/bitmap_widget_generator.dart';
 export 'src/utils/constants.dart';
 export 'src/utils/extensions.dart';
 export 'src/utils/file_utils.dart';
+export 'src/utils/formatter.dart';
 export 'src/utils/methods.dart';
 export 'src/utils/route_animation.dart';
 //Widgets
