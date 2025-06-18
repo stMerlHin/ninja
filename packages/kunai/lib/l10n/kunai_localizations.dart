@@ -104,6 +104,18 @@ abstract class KunaiLocalizations {
   /// **'Hello World!'**
   String get helloWorld;
 
+  /// No description provided for @authenticationError.
+  ///
+  /// In en, this message translates to:
+  /// **'Authentication error'**
+  String get authenticationError;
+
+  /// No description provided for @bannedMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Nous avons bloqué toutes les demandes provenant de cet appareil en raison d\'une activité inhabituelle. Réessayez plus tard (4h).'**
+  String get bannedMessage;
+
   /// No description provided for @ppRetry.
   ///
   /// In en, this message translates to:

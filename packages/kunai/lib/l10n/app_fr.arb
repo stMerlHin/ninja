@@ -1,5 +1,7 @@
 {
     "helloWorld": "Bonjour tout le monde",
+    "authenticationError": "Erreur d'authentification",
+    "bannedMessage": "We have blocked all requests from this device due to unusual activity. Try again later (4h).",
     "button": "Bouton",
     "ppRetry": "Réessayez",
     "at": "À",

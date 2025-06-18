@@ -3,6 +3,8 @@
     "@helloWorld": {
       "description": "The conventional newborn programmer greeting"
     },
+    "authenticationError": "Authentication error",
+    "bannedMessage": "Nous avons bloqué toutes les demandes provenant de cet appareil en raison d'une activité inhabituelle. Réessayez plus tard (4h).",
     "ppRetry": "retry",
     "at": "At",
     "loading": "Loading...",

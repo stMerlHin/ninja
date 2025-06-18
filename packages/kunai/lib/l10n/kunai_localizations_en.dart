@@ -12,6 +12,13 @@ class KunaiLocalizationsEn extends KunaiLocalizations {
   String get helloWorld => 'Hello World!';
 
   @override
+  String get authenticationError => 'Authentication error';
+
+  @override
+  String get bannedMessage =>
+      'Nous avons bloqué toutes les demandes provenant de cet appareil en raison d\'une activité inhabituelle. Réessayez plus tard (4h).';
+
+  @override
   String get ppRetry => 'retry';
 
   @override
