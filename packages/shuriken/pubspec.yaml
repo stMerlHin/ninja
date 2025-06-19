@@ -1,6 +1,6 @@
 name: shuriken
 description: "A new Flutter package project."
-version: 0.0.2+2
+version: 0.0.2+3
 publish_to: none
 #homepage:
 
@@ -16,7 +16,7 @@ dependencies:
     git:
       url: https://github.com/stMerlHin/ninja.git
       path: packages/kunai
-      ref: master
+      ref: merlhin-dev
 
   #  Firebase dep
 #  firebase_core: ^3.11.0
