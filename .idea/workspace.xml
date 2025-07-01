@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87284d40-bbec-4d67-a558-99d1defcf79f" name="Changes" comment="" />
+    <list default="true" id="87284d40-bbec-4d67-a558-99d1defcf79f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/kunai/lib/l10n/app_en.arb" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/lib/l10n/app_en.arb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/kunai/lib/l10n/app_fr.arb" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/lib/l10n/app_fr.arb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/kunai/lib/l10n/kunai_localizations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/lib/l10n/kunai_localizations.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/kunai/lib/l10n/kunai_localizations_en.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/lib/l10n/kunai_localizations_en.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/kunai/lib/l10n/kunai_localizations_fr.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/lib/l10n/kunai_localizations_fr.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/kunai/lib/src/utils/methods.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/lib/src/utils/methods.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/kunai/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kunai/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

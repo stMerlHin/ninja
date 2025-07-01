@@ -12,6 +12,10 @@ class KunaiLocalizationsEn extends KunaiLocalizations {
   String get helloWorld => 'Hello World!';
 
   @override
+  String get operationCompletedWithSuccess =>
+      'Operation completed with success';
+
+  @override
   String get authenticationError => 'Authentication error';
 
   @override

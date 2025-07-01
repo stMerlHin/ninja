@@ -103,22 +103,66 @@ Future<void> settle({
 //   notification.show();
 // }
 
+
+// Show a snackBar with 5 seconds as duration
+showErrorSnackBar(BuildContext context, String message,
+    {int durationSeconds = 5,}) {
+  if (context.mounted) {
+    return snackBar(
+      context,
+      behavior: SnackBarBehavior.floating,
+      margin: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 15.0),
+      backgroundColor: Colors.red,
+      message,
+    );
+  }
+}
+
+// Show a snackBar with 5 seconds as duration
+showSuccessSnackBar(BuildContext context,
+    {String? message, int durationSeconds = 5,}) {
+  if (context.mounted) {
+    return snackBar(
+      context,
+      behavior: SnackBarBehavior.floating,
+      margin: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 15.0),
+      backgroundColor: Colors.green,
+      message ?? context.kunaiL10n.operationCompletedWithSuccess,
+    );
+  }
+}
 // Show a snackBar with 2 seconds as duration
 Future<void> snackBar(
-  BuildContext context,
-  String message, {
-  int durationSeconds = 2,
-}) async {
+    BuildContext context,
+    String message, {
+      int durationSeconds = 2,
+      Color? backgroundColor,
+      double? elevation,
+      EdgeInsetsGeometry? padding,
+      EdgeInsetsGeometry? margin,
+      SnackBarBehavior? behavior,
+    }) async {
   if (context.mounted) {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text(message),
+        padding: padding,
+        margin: margin,
+        elevation: elevation,
+        backgroundColor: backgroundColor,
+        behavior: behavior,
+        content: Text(
+          message,
+          style: const TextStyle(
+            color: Colors.white,
+          ),
+        ),
         duration: Duration(seconds: durationSeconds),
       ),
     );
   }
   return;
 }
+
 
 List<String> dynamicListToStringList(List<dynamic>? list) {
   List<String> m = [];
@@ -188,7 +232,7 @@ Widget infoBox({
 // Show a snackBar with 2 seconds as duration
 showConnexionErrorSnackBar(BuildContext context, {int durationSeconds = 2}) {
   if (context.mounted) {
-    return snackBar(
+    return showErrorSnackBar(
         context,
         "${context.kunaiL10n.anErrorHappened} "
         "${context.kunaiL10n.checkYourConnection.toLowerCase()} "

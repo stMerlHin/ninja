@@ -104,6 +104,12 @@ abstract class KunaiLocalizations {
   /// **'Hello World!'**
   String get helloWorld;
 
+  /// No description provided for @operationCompletedWithSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Operation completed with success'**
+  String get operationCompletedWithSuccess;
+
   /// No description provided for @authenticationError.
   ///
   /// In en, this message translates to:
