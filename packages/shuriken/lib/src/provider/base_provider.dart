@@ -155,8 +155,8 @@ abstract class BaseProvider {
 
 
   Future<void> signOut({String? clientId}) async {
-    await BaseProvider.auth.signOut();
     await GoogleSignIn(clientId: clientId).signOut();
+    await BaseProvider.auth.signOut();
     BaseProvider.hasLinkedAccount = false;
   }
 
