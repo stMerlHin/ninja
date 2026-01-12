@@ -4,6 +4,7 @@
       "description": "The conventional newborn programmer greeting"
     },
     "operationCompletedWithSuccess" : "Operation completed with success",
+    "anErrorHasOccurred": "An error has occurred",
     "authenticationError": "Authentication error",
     "bannedMessage": "Nous avons bloqué toutes les demandes provenant de cet appareil en raison d'une activité inhabituelle. Réessayez plus tard (4h).",
     "ppRetry": "retry",

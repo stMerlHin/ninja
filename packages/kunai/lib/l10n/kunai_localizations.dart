@@ -110,6 +110,12 @@ abstract class KunaiLocalizations {
   /// **'Operation completed with success'**
   String get operationCompletedWithSuccess;
 
+  /// No description provided for @anErrorHasOccurred.
+  ///
+  /// In en, this message translates to:
+  /// **'An error has occurred'**
+  String get anErrorHasOccurred;
+
   /// No description provided for @authenticationError.
   ///
   /// In en, this message translates to:

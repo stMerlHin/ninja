@@ -15,6 +15,9 @@ class KunaiLocalizationsFr extends KunaiLocalizations {
   String get operationCompletedWithSuccess => 'Opération effectué avec succès';
 
   @override
+  String get anErrorHasOccurred => 'Une erreur s\'est produite.';
+
+  @override
   String get authenticationError => 'Erreur d\'authentification';
 
   @override
