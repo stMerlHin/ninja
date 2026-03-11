@@ -565,6 +565,7 @@ Future<void> showAlertDialog({
   Widget? title,
   Widget? content,
   Color? surfaceTintColor,
+  Color? backgroundColor,
   List<Widget>? actions,
   bool barrierDismissible = false,
   void Function()? onDismiss,
@@ -576,6 +577,7 @@ Future<void> showAlertDialog({
       return AlertDialog(
         title: title,
         surfaceTintColor: surfaceTintColor,
+        backgroundColor: backgroundColor,
         content: content,
         actions: actions,
       );

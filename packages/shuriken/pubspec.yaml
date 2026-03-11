@@ -13,10 +13,11 @@ dependencies:
     sdk: flutter
 
   kunai:
-    git:
-      url: https://github.com/stMerlHin/ninja.git
-      path: packages/kunai
-      ref: merlhin-dev
+    path: ../kunai
+#    git:
+#      url: https://github.com/stMerlHin/ninja.git
+#      path: packages/kunai
+#      ref: merlhin-dev
 
   #  Firebase dep
 #  firebase_core: ^3.11.0
