@@ -534,6 +534,7 @@ Future<void> showProgressDialog({
   bool barrierDismissible = false,
   Widget? description,
   Color? surfaceTintColor,
+  Color? backgroundColor,
   void Function()? onDismiss,
 }) async {
   await showDialog(
@@ -543,6 +544,7 @@ Future<void> showProgressDialog({
         return AlertDialog(
           title: title,
           surfaceTintColor: surfaceTintColor,
+          backgroundColor: backgroundColor,
           content: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
