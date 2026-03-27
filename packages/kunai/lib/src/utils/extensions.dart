@@ -137,7 +137,7 @@ extension DateTimeExt on DateTime {
   }
 
   String toDatabaseDateFormatString([String separator = '-']) {
-    return '$year$separator$month$separator$day';
+    return '$year$separator${month.toStringWith0()}$separator${day.toStringWith0()}';
   }
 
   String get hourAndMinuteWithZero => '${hour.toStringWith0()}:${minute.toStringWith0()}';

@@ -21,6 +21,12 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_auth_web-5.15.3" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_storage_web-3.10.17" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_messaging-15.2.10" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/url_launcher_macos-3.2.4" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/url_launcher_windows-3.1.4" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/url_launcher_linux-3.2.1" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/file_picker-10.3.3" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.24" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/url_launcher_ios-6.3.5" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
