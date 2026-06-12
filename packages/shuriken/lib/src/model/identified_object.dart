@@ -11,7 +11,9 @@ class IdentifiedObject with Mappable implements CanBeGrouped {
 
   @override
   Map<String, dynamic> toMap([bool store = true]) {
-    return {};
+    return {
+      'id': id,
+    };
   }
 
   @override
